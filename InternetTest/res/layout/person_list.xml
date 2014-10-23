@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<ScrollView android:fillViewport="true"
+		android:layout_marginBottom="60dp" android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:id="@+id/select_person_list" android:scrollbars="vertical">
+		</LinearLayout>
+	</ScrollView>
+
+	<LinearLayout android:id="@+id/buttons_layout" android:background="#808080"
+		android:layout_alignParentBottom="true" android:layout_marginTop="-60dp"
+		android:gravity="center" android:padding="5dp" android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<Button android:id="@+id/new_button"
+			android:text="New"
+			android:layout_height="wrap_content" android:layout_width="fill_parent"
+			android:gravity="center" />
+	</LinearLayout>
+
+</RelativeLayout>
